@@ -1,0 +1,15 @@
+__pycache__/
+.venv/
+env/
+venv/
+.env
+output/
+reports/
+logs/
+tools/
+*.pyc
+.DS_Store
+*.sqlite3
+dist/
+build/
+node_modules/

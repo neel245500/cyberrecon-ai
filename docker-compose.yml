@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  cyberrecon-api:
+    build: .
+    container_name: cyberrecon-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./output:/app/output
+      - ./reports:/app/reports
+      - ./screenshots:/app/screenshots
+      - ./logs:/app/logs
+    environment:
+      - OLLAMA_URL=http://host.docker.internal:11434

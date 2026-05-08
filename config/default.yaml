@@ -1,0 +1,9 @@
+settings:
+  concurrency: 80
+  timeout_seconds: 15
+  retries: 2
+  user_agent: CyberReconAI/1.0
+  ollama_model: llama3
+  ollama_url: http://localhost:11434
+  openai_enabled: false
+  deepseek_enabled: false
